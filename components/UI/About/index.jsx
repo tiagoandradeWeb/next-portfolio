@@ -9,6 +9,7 @@ import img01 from '../../../public/images/img-01.jpg'
 import img02 from '../../../public/images/img-02.jpg'
 import img03 from '../../../public/images/img-03.jpg'
 import img04 from '../../../public/images/hero.jpg'
+import Head from 'next/head'
 
 function About() {
   return (

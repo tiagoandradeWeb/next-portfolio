@@ -5,10 +5,14 @@ import Hero from "../components/UI/Hero"
 import Portfolio from "../components/UI/Portfolio"
 import Services from "../components/UI/Services"
 import Testimonial from "../components/UI/Testimonial"
+import Head from "next/head"
 
 export default function Home () {
   return (
     <Fragment>
+      <Head>
+            <title>Portfolio NextJS</title>
+      </Head>
       <Hero/>
       <Services/>
       <About/>
