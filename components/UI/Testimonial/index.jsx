@@ -2,11 +2,11 @@ import React from 'react'
 import { Container, Row, Col} from 'reactstrap'
 import Image from 'next/image'
 import SectionSubtitle from '../SectionSubTitle'
-import network from '../../../public/images/connectedworld.png'
 import Slider from 'react-slick'
 import styles from './testimonial.module.css'
 
-import img01 from '../../../public/images/hero.jpg'
+import network from '../../../public/images/connected.png'
+import img01 from   '../../../public/images/hero.jpg'
 import img02 from '../../../public/images/img-01.jpg'
 import img03 from '../../../public/images/img-02.jpg'
 
