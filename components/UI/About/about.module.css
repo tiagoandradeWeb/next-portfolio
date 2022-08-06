@@ -1,0 +1,35 @@
+.about__icon{
+    color: #01d293;
+}
+
+.about__img{
+    padding: 10px;
+    background: #171f38;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.about__img img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.about__img__box{
+    width: 200px;
+}
+
+@media only screen and (max-width: 992px){
+    .about__content h3{
+        font-size: 1.3rem;
+    }
+    .about__img__gallery{
+        justify-content: center !important;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .about__img__box{
+        width: 150px;
+    }
+}
