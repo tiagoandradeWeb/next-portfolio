@@ -33,15 +33,15 @@ function Portfolio() {
                     <h4 className='mt-4'>Some of my distinguished works</h4>
                 </Col>
                 <Col lg='6' md='6'>
-                    <div className='text-end' className={`${styles.portfolio__menu}`}>
+                    <div className={`${styles.portfolio__menu} text-end`}>
                         <button className={`${filter === 'Mobile App' ? active : "text-white"} secondary__btn`} onClick={()=> setFilter('Mobile App')}>Mobile App</button>
                         <button className={`${filter === 'Web Design' ? active : "text-white"} secondary__btn`} onClick={()=> setFilter('Web Design')}>Web Design</button>
                     </div>
                 </Col>
                 {
                     data?.map((item) => (
-                        <Col lg='4' md='4'>
-                            <PortfolioItem item={item} key={item.id}/>
+                        <Col lg='4' md='4' key={item.id}>
+                            <PortfolioItem item={item}/>
                         </Col>
                     ))
                 }
