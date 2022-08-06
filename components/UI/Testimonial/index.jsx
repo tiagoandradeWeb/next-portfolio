@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Row, Col} from 'reactstrap'
 import Image from 'next/image'
 import SectionSubtitle from '../SectionSubTitle'
-import network from '../../../public/images/connected world.png'
+import network from '../../../public/images/connectedworld.png'
 import Slider from 'react-slick'
 import styles from './testimonial.module.css'
 
